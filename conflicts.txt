@@ -1,0 +1,23 @@
+La seconde partie du mot secret est : icité ...
+
+Mergez cette branche avec l'avant dernier commit de master pour connaitre le début !
+
+Pour cela : 
+
+- revenez dans la branche master 
+
+- supprimez le dernier commit avec : 
+
+    git reset --hard HEAD~1
+
+    NB : Cette commande permet de revenir (git reset) au commit précédent (HEAD~1) 
+    en restaurant l'état des fichiers du commit précédent.
+
+- mergez suite avec master, un conflit devrait apparaître
+
+- vous trouverez la première partie du mot en résolvant le conflit 
+
+- résolvez manuellement le conflit pour que le fichier conflicts.txt ne contienne que
+le mot secret
+
+- sauvegardez ces modifications dans un nouveau commit et appelez moi pour me le montrer
